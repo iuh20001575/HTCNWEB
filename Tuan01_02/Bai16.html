@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuần 01-Bài 16</title>
+</head>
+<body>
+    <form>
+        <h1>Travel reservation form</h1>
+        <b>* denotes mandotory</b>
+        <br>
+        <label for="fullname">Full name*:</label>
+        <br>
+        <input type="text" name="fullname" id="fullname" placeholder="FirstName LastName">
+        <br>
+        <label for="email">Email address*:</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="EMAIL_ADDRESS">
+        <br>
+        <label for="select">Select Tour Package*:</label>
+        <br>
+        <select name="tour" id="select">
+            <option value="">-- Target</option>
+            <option value="goa">Goa</option>
+        </select>
+        <br>
+        <label for="date">Arrival date*:</label>
+        <br>
+        <input type="date" name="date" id="date">
+        <br>
+        <label for="number">Number of persons*:</label>
+        <br>
+        <input type="number" name="number" id="number" placeholder="UNKNOWN_TYPE">
+        <br>
+        <label for="interest">What would you want to avail?*</label>
+        <br>
+        Boarding
+        <input type="checkbox" name="interest">
+        <br>
+        Fooding
+        <input type="checkbox" name="interest">
+        <br>
+        Sight seeing
+        <input type="checkbox" name="interest">
+        <br>
+        <label for="discount">Discount Coupon code:</label>
+        <br>
+        <input type="text" name="discount" id="discount">
+        <br>
+        <label for="terms">Terms and conditions*</label>
+        <br>
+        <input type="radio" name="terms">
+        I agree
+        <input type="radio" name="terms">
+        I disagree
+        <br>
+        <button>Complete reservation</button>
+    </form>
+</body>
+</html>

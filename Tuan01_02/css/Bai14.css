@@ -1,0 +1,10 @@
+div {
+    align-items: center;
+    display: flex;
+    margin-bottom: 4px;
+}
+
+div label {
+    width: 200px;
+    flex-shrink: 0;
+}

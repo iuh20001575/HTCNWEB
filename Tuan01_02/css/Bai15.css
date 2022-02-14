@@ -1,0 +1,21 @@
+
+form {
+    width: 550px;
+    margin-bottom: 50px;
+}
+
+div {
+    align-items: center;
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.info label {
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.contact label {
+    width: 120px;
+    flex-shrink: 0;
+}
